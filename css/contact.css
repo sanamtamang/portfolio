@@ -1,0 +1,60 @@
+.message-box input,
+.message-box textarea {
+  margin-bottom: 20px;
+  background-color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  width: 100%;
+  color: white;
+  border: none;
+
+  outline: none;
+}
+.info {
+  display: flex;
+}
+.info input[type="email"] {
+  margin-left: 20px;
+}
+.get-in-touch {
+  display: flex;
+}
+
+.message-box {
+  flex: 1;
+}
+
+.message-box button {
+  background-color: #009e66;
+  border-radius: 50px;
+  padding: 10px 30px;
+  color: aliceblue;
+  border: none;
+}
+.message-box input:focus,
+.message-box textarea:focus {
+  border: none;
+  border-bottom: 1px solid aqua;
+}
+.contact-info {
+  margin-left: 50px;
+  flex: 1;
+}
+.name div {
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+.contact-info p {
+  max-width: 400px;
+  color: #ddd;
+  font-size: 14px;
+  line-height: 25px;
+}
+.contact-info span {
+  color: #ddd;
+  font-size: 14px;
+}
+.name {
+  margin-bottom: 30px;
+}

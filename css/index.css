@@ -1,0 +1,23 @@
+.background {
+  background-image: url(/img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.site-name {
+  font-size: 80px;
+  color: aliceblue;
+  margin: 0px;
+}
+.developer {
+  font-size: 30px;
+  color: aliceblue;
+}
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}

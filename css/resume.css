@@ -1,0 +1,102 @@
+.computer {
+  display: flex;
+}
+
+.about-edu h3 {
+  margin: 0;
+  padding-bottom: 10px;
+}
+.about-edu span,
+p {
+  font-size: 14px;
+  color: gray;
+}
+.about-edu {
+  margin-right: 100px;
+  flex: 1;
+}
+
+.about-edu-left div,
+.about-edu-right div {
+  background-color: #161616;
+  padding: 30px;
+}
+.about-edu h3 {
+  border: 100px;
+}
+.about-edu p {
+  width: 350px;
+}
+.middle-item {
+  border-bottom: 1px solid grey;
+  border-top: 1px solid gray;
+}
+.skills-header {
+  margin-top: 150px;
+}
+.about-my-skills {
+  display: flex;
+}
+
+.about-my-skills > div {
+  flex: 1;
+  margin-right: 30px;
+}
+.skill-title {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  position: relative;
+  height: 15px;
+}
+
+.skill-title span {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.skill-title span:last-child {
+  left: calc(95% - 30px);
+}
+.about-my-skills ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.about-my-skills ul li {
+  padding-bottom: 50px;
+}
+.skill-level-wrapper {
+  position: relative;
+  margin-top: 10px;
+}
+.skill-level {
+  position: absolute;
+  background-color: var(--primaryColor);
+  height: 8px;
+  z-index: 1;
+  width: 95%;
+}
+.skill-line {
+  position: absolute;
+  z-index: 0;
+  background-color: #2f2f2f;
+  width: 100%;
+  height: 8px;
+}
+.office p {
+  max-width: 600px;
+  line-height: 30px;
+}
+.photo img {
+  max-width: 100%;
+  max-height: 300px;
+}
+
+.office {
+  display: flex;
+}
+
+.office > div {
+  flex: 1;
+}

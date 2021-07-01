@@ -1,0 +1,112 @@
+html {
+  --primaryColor: #009e66;
+  --secondaryColor: gray;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #111;
+  color: aliceblue;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.section-title {
+  margin: 0;
+  padding-top: 15px;
+  font-weight: bold;
+  font-size: 35px;
+  padding-bottom: 30px;
+}
+
+.section-subtitle {
+  color: gray;
+  margin: 0;
+}
+
+.section-title.center,
+.section-subtitle.center {
+  text-align: center;
+}
+
+.header {
+  justify-content: space-between;
+  display: flex;
+  padding-top: 10px;
+}
+
+.header img {
+  height: 25px;
+  width: 80px;
+  margin-top: 15px;
+  margin-left: 50px;
+}
+.lists {
+  display: flex;
+  list-style: none;
+  flex: 2;
+  padding: 0;
+  margin: 0;
+  justify-content: flex-end;
+}
+.lists li {
+  margin: 0px 20px;
+}
+
+.lists li a {
+  text-decoration: none;
+  color: white;
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  flex: 1;
+}
+
+.navbar-toggle {
+  display: none;
+  margin-right: 20px;
+  border: 1px solid #ccc;
+  color: #aaa;
+  width: 40px;
+  height: 40px;
+}
+
+@media (max-width: 375px) {
+  .header {
+    flex-direction: column;
+  }
+  .lists {
+    display: none;
+  }
+
+  .show {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .lists li {
+    display: block;
+    padding-top: 15px;
+  }
+
+  .navbar-toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

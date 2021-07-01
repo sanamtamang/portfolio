@@ -1,0 +1,38 @@
+.blog img {
+  height: 300px;
+  width: 350px;
+  cursor: pointer;
+}
+.blog p {
+  color: gray;
+  max-width: 300px;
+  font-size: 14px;
+}
+.about-blog {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.blog {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.blog h3 {
+  cursor: pointer;
+}
+.sanam {
+  position: relative;
+  height: 300px;
+  width: 350px;
+}
+.blog img {
+  position: absolute;
+}
+.date-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  padding: 5px 10px;
+  background-color: var(--primaryColor);
+}
